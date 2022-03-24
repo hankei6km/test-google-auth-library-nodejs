@@ -59,7 +59,7 @@ export const CLOUD_RESOURCE_MANAGER =
   'https://cloudresourcemanager.googleapis.com/v1/projects/';
 /** The workforce audience pattern. */
 const WORKFORCE_AUDIENCE_PATTERN =
-  '//iam.googleapis.com/locations/[^/]+/workforcePools/[^/]+/providers/.+';
+  '//iam\\.googleapis\\.com/locations/[^/]+/workforcePools/[^/]+/providers/.+';
 
 /**
  * Base external account credentials json interface.
